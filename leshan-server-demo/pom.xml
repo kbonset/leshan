@@ -68,6 +68,18 @@ Contributors:
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
+        <!-- Bouncy Castle is required for TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 
+             cipher suite -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.62</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bctls-jdk15on</artifactId>
+            <version>1.62</version>
+        </dependency>
 
         <!-- runtime dependencies -->
        <dependency>
